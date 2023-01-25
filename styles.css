@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+
+/* generic */
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+/* navbar */
+
+.navbar {
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 69px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#tea-cozy-logo {
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    text-decoration: underline;
+    padding: 21px 40px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.menu a:hover {
+    color: lightgrey;
+    text-decoration: none;
+
+}
+
+/* mission */
+
+.mission-background {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    width: 1200px;
+    height: 700px;
+    margin-left: 40px;
+}
+
+.mission-header {
+    align-items: center;
+}
+
+
+/* tea */
+.container {
+    width: 1000px;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    margin: 30px 15px;
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+}
+
+/* locations */
+.location-background {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    width: 1200px;
+    height: 500px;
+    margin-left: 40px;
+}
+
+.location {
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+    margin: 15px 10px;
+    background-color: black;
+}
+
+.location h3 {
+    padding: 10px 0px;
+}
+
+.location p {
+    padding: 15px 0px;
+}
+
+/* contact */
+.contact {
+    height: 200px;
+    width: 100%;
+}
+
+.contact h2 {
+    margin-top: 0;
+}
+
+.contact h5 {
+    font-size: 18px;
+    margin: 30px;
+}
+
+/* footer */
+.footer-content {
+    text-align: left;
+    margin: 20px;
+    font-size: 18px;
+}
